@@ -1,0 +1,49 @@
+p{
+    font: size 30px;
+    font-weight: bold;
+}
+div{
+    font-family: "Helvitica", sans-serif;
+    background: rgb(0, 128, 47) ;
+    border: 3px solid red;
+    width: 350px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgb(8, 0, 255) ;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px; 
+}
+.static{
+    position: static;
+    left: 400px;
+}
+.relative{
+    position: relative;
+    left: 400px;
+    top: 200px;
+    right: 200px;
+}
+fixed{
+    position:fixed;
+    top:0px;
+    right:0px;
+}
+.ancestor{
+    width:500px;
+    height:400px;
+    position: relative;
+    left:400px;
+    top:200px;
+}
+.absolute{
+    position: absolute;
+   left:530px;
+    top:200px;
+} */
+
+
+.sticky{
+    position: sticky;
+    top:0px;
+    left:0px;
+} 
